@@ -1,0 +1,13 @@
+/Users/zonvu/.rvm/rubies/ruby-2.1.5/bin/ruby -r ./siteconf20150815-31053-biqo0w.rb extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+ld: warning: directory not found for option '-L/Users/mpapis/.sm/pkg/active/lib'
+
+make "DESTDIR=" install
+/usr/bin/install -m 0755 debug_inspector.bundle ./.gem.20150815-31053-1blpxni
+installing default debug_inspector libraries
